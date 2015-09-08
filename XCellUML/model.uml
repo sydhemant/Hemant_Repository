@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_5PRHsESyEeWuft2yb1dOmA" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_H16A8ESzEeWuft2yb1dOmA" name="Actor1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Jje9EESzEeWuft2yb1dOmA" name="ClientAPI"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TZYEIESzEeWuft2yb1dOmA" name="Receives Request"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GOrSgES1EeWuft2yb1dOmA" name="Extract Data"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LHe0gES1EeWuft2yb1dOmA" name="Create Worksheet"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UEhA8ES1EeWuft2yb1dOmA" name="Generate Excel"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Xj9jUES1EeWuft2yb1dOmA" name="Save Excel"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bG3pYES1EeWuft2yb1dOmA" name="Decorate Worksheet"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vcZ_IES1EeWuft2yb1dOmA" memberEnd="_vcmMYES1EeWuft2yb1dOmA _vcmMYUS1EeWuft2yb1dOmA">
+    <ownedEnd xmi:id="_vcmMYES1EeWuft2yb1dOmA" type="_TZYEIESzEeWuft2yb1dOmA" association="_vcZ_IES1EeWuft2yb1dOmA"/>
+    <ownedEnd xmi:id="_vcmMYUS1EeWuft2yb1dOmA" type="_Jje9EESzEeWuft2yb1dOmA" association="_vcZ_IES1EeWuft2yb1dOmA"/>
+  </packagedElement>
+</uml:Model>
